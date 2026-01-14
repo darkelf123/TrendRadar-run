@@ -170,12 +170,6 @@ rss:
       url: "https://rss-hub-six-rosy.vercel.app/sse/renewal"
       enabled: true
     
-    - id: "ithome"
-      name: "IT之家科技新闻"
-      url: "https://www.ithome.com/rss/"
-      enabled: true
-      max_age_days: 1               # 只推送1天内的文章，保持时效性
-
       
     # 自定义源示例
     # - id: "custom-feed"
