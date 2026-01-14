@@ -93,7 +93,8 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+      enabled: false                  
+      
     - id: "jin10-news"
       name: "金十数据-白银"
       url: "https://rss-hub-six-rosy.vercel.app/jin10/category/3"
@@ -168,6 +169,13 @@ rss:
       name: "上交所 - 科创板项目动态（含定增审核）"
       url: "https://rss-hub-six-rosy.vercel.app/sse/renewal"
       enabled: true
+    
+    - id: "ithome"
+      name: "IT之家科技新闻"
+      url: "https://www.ithome.com/rss/"
+      enabled: true
+      max_age_days: 1               # 只推送1天内的文章，保持时效性
+
       
     # 自定义源示例
     # - id: "custom-feed"
