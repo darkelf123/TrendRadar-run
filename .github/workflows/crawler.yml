@@ -86,6 +86,12 @@ jobs:
       - name: Run crawler
         if: success()
         env:
+          env:
+          # 强制 Python 实时输出
+          PYTHONUNBUFFERED: "1"
+
+          # 日志级别（如果程序支持）
+          LOG_LEVEL: DEBUG
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -118,4 +124,6 @@ jobs:
           S3_ENDPOINT_URL: ${{ secrets.S3_ENDPOINT_URL }}
           S3_REGION: ${{ secrets.S3_REGION }}
           GITHUB_ACTIONS: true
-        run: python -m trendradar
+        run: |
+          set -x
+          python -m trendradar
