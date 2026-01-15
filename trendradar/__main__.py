@@ -7,6 +7,14 @@ TrendRadar 主程序
 """
 
 import os
+import logging
+
+log_level = os.getenv("LOG_LEVEL", "INFO").upper()
+
+logging.basicConfig(
+    level=getattr(logging, log_level, logging.INFO),
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
 import webbrowser
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
