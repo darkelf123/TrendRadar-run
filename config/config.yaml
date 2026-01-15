@@ -100,6 +100,16 @@ rss:
       url: "https://rss-hub-six-rosy.vercel.app/jin10/category/3"
       enabled: true
 
+    - id: "jin10-news"
+      name: "金十数据"
+      url: "https://rss-hub-six-rosy.vercel.app/jin10"
+      enabled: true
+
+    - id: "jin10-news"
+      name: "金十数据-期货"
+      url: "https://rss-hub-six-rosy.vercel.app/jin10/category/36"
+      enabled: true
+
     - id: "wscn-weixin"
       name: "华尔街见闻-微信精选"
       url: "https://feedmaker.kindle4rss.com/feeds/wallstreetcn.weixin.xml"
