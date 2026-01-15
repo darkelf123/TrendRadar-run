@@ -180,7 +180,74 @@ rss:
       url: "https://rss-hub-six-rosy.vercel.app/sse/renewal"
       enabled: true
 
-    
+    - id: "caixin-latest"
+      name: "财新网-最新文章"
+      url: "https://rss-hub-six-rosy.vercel.app/caixin/latest"
+      enabled: true
+      max_age_days: 1
+
+    - id: "caixin-latest"
+      name: "财新网-金融/监管"
+      url: "https://rss-hub-six-rosy.vercel.app/caixin/finance/regulation"
+      enabled: true
+      max_age_days: 1
+
+    - id: "yicai-brief"
+      name: "第一财经 - 新闻 实战快讯源"
+      url: "https://rss-hub-six-rosy.vercel.app/yicai/brief"
+      enabled: true
+      max_age_days: 1
+
+    - id: "yicai-jinrong"
+      name: "第一财经 - 新闻"
+      url: "https://rss-hub-six-rosy.vercel.app/yicai/news"
+      enabled: true
+      max_age_days: 2
+
+    - id: "jisilu-arbitrage"
+      name: "集思录-套利分类"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/category/5"
+      enabled: true
+      max_age_days: 1
+
+    - id: "jisilu-fund"
+      name: "集思录-基金分类"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/category/7"
+      enabled: true
+      max_age_days: 1
+
+    - id: "jisilu-explore"
+      name: "集思录-广场实时"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/explore"
+      enabled: true
+      max_age_days: 1
+
+    - id: "jisilu-silver"
+      name: "集思录-白银话题"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/topic/白银"
+      enabled: true
+      max_age_days: 1
+
+    - id: "jisilu-161226"
+      name: "集思录-161226话题"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/topic/161226"
+      enabled: true
+      max_age_days: 1
+
+    - id: "jisilu-tianshu"
+      name: "集思录-天书（低风险套利教父）"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/people/天书"
+      enabled: true
+      max_age_days: 2
+
+    - id: "jisilu-kongmanzi"
+      name: "孔曼子（擅长基金与大宗）"
+      url: "https://rss-hub-six-rosy.vercel.app/jisilu/people/孔曼子"
+      enabled: true
+      max_age_days: 2
+
+
+
       
     # 自定义源示例
     # - id: "custom-feed"
