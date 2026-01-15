@@ -258,18 +258,11 @@ rss:
       enabled: true
       max_age_days: 1
 
-    - id: "xueqiu-hot"
-      name: "雪球热帖"
-      url: "https://app.folo.is/share/feeds/53033422584152064"
+    - id: "jiuyangongshe"
+      name: "韭研公社"
+      url: "https://rss-hub-six-rosy.vercel.app/jiuyangongshe/community"
       enabled: true
       max_age_days: 1
-
-    - id: "xueqiu-hot"
-      name: "雪球今日话题"
-      url: "https://app.folo.is/share/feeds/61288440756878338"
-      enabled: true
-      max_age_days: 1
-
       
     # 自定义源示例
     # - id: "custom-feed"
