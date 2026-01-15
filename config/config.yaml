@@ -263,6 +263,26 @@ rss:
       url: "https://rss-hub-six-rosy.vercel.app/jiuyangongshe/community"
       enabled: true
       max_age_days: 1
+
+    - id: "21caijing-securities"
+      name: "21财经 - 证券"
+      url: "https://rss-hub-six-rosy.vercel.app/21caijing/channel/%E8%AF%81%E5%88%B8"
+      enabled: true
+      max_age_days: 1
+
+    - id: "21caijing-hotspot"
+      name: "21财经 - 热点"
+      url: "https://rss-hub-six-rosy.vercel.app/21caijing/channel/%E7%83%AD%E7%82%B9"
+      enabled: true
+      max_age_days: 1
+
+    - id: "21caijing-finance"
+      name: "21财经 - 金融"
+      url: "https://rss-hub-six-rosy.vercel.app/21caijing/channel/%E9%87%91%E8%9E%8D"
+      enabled: true
+      max_age_days: 1
+
+
       
     # 自定义源示例
     # - id: "custom-feed"
