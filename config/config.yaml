@@ -170,12 +170,6 @@ rss:
       url: "https://rss-hub-six-rosy.vercel.app/sse/renewal"
       enabled: true
 
-    - id: "ChinaDaily_World"      
-      name: "ChinaDaily"
-      url: http://feedmaker.kindle4rss.com/feeds/world.chinadaily.xml
-      enabled: true
-
-
     
       
     # 自定义源示例
