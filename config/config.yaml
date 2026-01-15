@@ -246,7 +246,29 @@ rss:
       enabled: true
       max_age_days: 2
 
+    - id: "szse-notice"
+      name: "深交所公告"
+      url: "https://rss-hub-six-rosy.vercel.app/szse/disclosure/listed/notice"
+      enabled: true
+      max_age_days: 1
 
+    - id: "htfx-news"
+      name: "汇通网快讯"
+      url: "https://app.folo.is/share/feeds/57678974871415816"
+      enabled: true
+      max_age_days: 1
+
+    - id: "xueqiu-hot"
+      name: "雪球热帖"
+      url: "https://app.folo.is/share/feeds/53033422584152064"
+      enabled: true
+      max_age_days: 1
+
+    - id: "xueqiu-hot"
+      name: "雪球今日话题"
+      url: "https://app.folo.is/share/feeds/61288440756878338"
+      enabled: true
+      max_age_days: 1
 
       
     # 自定义源示例
