@@ -93,92 +93,110 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  
+      enabled: true
+      max_age_days: 1
       
     - id: "jin10-news"
       name: "金十数据-白银"
       url: "https://rss-hub-six-rosy.vercel.app/jin10/category/3"
       enabled: true
+      max_age_days: 1
 
     - id: "jin10-news"
       name: "金十数据"
       url: "https://rss-hub-six-rosy.vercel.app/jin10"
       enabled: true
+      max_age_days: 1
 
     - id: "jin10-news"
       name: "金十数据-期货"
       url: "https://rss-hub-six-rosy.vercel.app/jin10/category/36"
       enabled: true
+      max_age_days: 1
 
     - id: "wscn-weixin"
       name: "华尔街见闻-微信精选"
       url: "https://feedmaker.kindle4rss.com/feeds/wallstreetcn.weixin.xml"
       enabled: true
+      max_age_days: 1
 
     - id: "chinadaily-world"
       name: "中国日报-世界"
       url: "https://feedmaker.kindle4rss.com/feeds/world.chinadaily.xml"
       enabled: true
+      max_age_days: 1
 
     - id: "tang-shufang"
       name: "唐书房"
       url: "http://feedmaker.kindle4rss.com/feeds/clouds70.weixin.xml"
       enabled: true
+      max_age_days: 1
 
     - id: "chinadaily-caijing"
       name: "中国日报-财经"
       url: "http://feedmaker.kindle4rss.com/feeds/caijing.chinadaily.xml"
       enabled: true
+      max_age_days: 1
 
     - id: "caixin-weixin"
       name: "财新网-微信"
       url: "http://feedmaker.kindle4rss.com/feeds/caixinwang.weixin.xml"
       enabled: true
+      max_age_days: 1
       
     - id: "jingji-100"
       name: "新经济100人"
       url: "https://feedmaker.kindle4rss.com/feeds/qiyejiagc.weixin.xml"
       enabled: true
+      max_age_days: 1
 
     - id: "fubusi-weixin"
       name: "福布斯中国"
       url: "https://feedmaker.kindle4rss.com/feeds/forbes_china.weixin.xml"
       enabled: true
+      max_age_days: 1
 
     - id: "touzi-china"
       name: "最新动态 | 中国投资者网"
       url: "https://rss-hub-six-rosy.vercel.app/investor/home/zxdt"
       enabled: true
+      max_age_days: 1
 
     - id: "tonghuashun-china"
       name: "同花顺财经"
       url: "https://rss-hub-six-rosy.vercel.app/10jqka/realtimenews"
       enabled: true
+      max_age_days: 1
 
     - id: "cls-telegraph"
       name: "财联社-电报"
       url: "https://rss-hub-six-rosy.vercel.app/cls/telegraph"
       enabled: true
+      max_age_days: 1
    
     - id: "ZQSB-web"
       name: "证券时报网"
       url: "https://rss-hub-six-rosy.vercel.app/stcn/article/rank/yw"
       enabled: true
+      max_age_days: 1
 
     - id: "sse-disclosure-latest"
       name: "上交所 - 最新公告（全市场）"
       url: "https://rss-hub-six-rosy.vercel.app/sse/disclosure"
       enabled: true
+      max_age_days: 1
 
     - id: "sse-inquire"
       name: "上交所 - 监管问询"
       url: "https://rss-hub-six-rosy.vercel.app/sse/inquire"
       enabled: true
+      max_age_days: 1
 
     - id: "sse-renewal"
       name: "上交所 - 科创板项目动态（含定增审核）"
       url: "https://rss-hub-six-rosy.vercel.app/sse/renewal"
       enabled: true
+      max_age_days: 1
 
     - id: "caixin-latest"
       name: "财新网-最新文章"
@@ -202,7 +220,7 @@ rss:
       name: "第一财经 - 新闻"
       url: "https://rss-hub-six-rosy.vercel.app/yicai/news"
       enabled: true
-      max_age_days: 2
+      max_age_days: 1
 
     - id: "jisilu-arbitrage"
       name: "集思录-套利分类"
@@ -238,13 +256,13 @@ rss:
       name: "集思录-天书（低风险套利教父）"
       url: "https://rss-hub-six-rosy.vercel.app/jisilu/people/天书"
       enabled: true
-      max_age_days: 2
+      max_age_days: 1
 
     - id: "jisilu-kongmanzi"
       name: "孔曼子（擅长基金与大宗）"
       url: "https://rss-hub-six-rosy.vercel.app/jisilu/people/孔曼子"
       enabled: true
-      max_age_days: 2
+      max_age_days: 1
 
     - id: "szse-notice"
       name: "深交所公告"
