@@ -96,7 +96,7 @@ rss:
       enabled: true
       max_age_days: 1
       
-    - id: "jin10-news"
+    - id: "jin10-silver"
       name: "金十数据-白银"
       url: "https://rss-hub-six-rosy.vercel.app/jin10/category/3"
       enabled: true
@@ -108,7 +108,7 @@ rss:
       enabled: true
       max_age_days: 1
 
-    - id: "jin10-news"
+    - id: "jin10-Futures"
       name: "金十数据-期货"
       url: "https://rss-hub-six-rosy.vercel.app/jin10/category/36"
       enabled: true
