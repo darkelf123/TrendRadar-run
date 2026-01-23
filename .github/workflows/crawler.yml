@@ -21,7 +21,7 @@ on:
     #
     # ⚠️ 请根据需要谨慎选择频率。当前设置为每 5 分钟运行一次。
     # ⚠️ Choose frequency carefully. Currently set to run every 5 minutes.
-    - cron: "*/10 * * * *"
+    - cron: "*/15 * * * *"
 
   workflow_dispatch: # 允许手动触发
 
