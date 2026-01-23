@@ -272,7 +272,7 @@ rss:
 
     - id: "htfx-news"
       name: "汇通网快讯"
-      url: "https://rsshub.app/fx678/kx"
+      url: "https://rss-hub-six-rosy.vercel.app/fx678/kx"
       enabled: true
       max_age_days: 1
 
