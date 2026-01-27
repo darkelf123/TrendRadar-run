@@ -489,7 +489,7 @@ ai_analysis:
   provider: "custom"              # 提供商
   api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
 
-  model: "deepseek/deepseek-v3.2"            # 模型名称
+  model: "tngtech/deepseek-r1t2-chimera:free"            # 模型名称
                                     # DeepSeek: deepseek-chat, deepseek-reasoner
                                     # OpenAI: o3-mini, o1, gpt-4o
                                     # Gemini: gemini-2.5-flash, gemini-2.5-pro
