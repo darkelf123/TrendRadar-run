@@ -198,11 +198,11 @@ rss:
       enabled: true
       max_age_days: 1
 
-    - id: "cls-telegraph"
-      name: "财联社-电报"
-      url: "https://rss-hub-six-rosy.vercel.app/cls/telegraph"
-      enabled: true
-      max_age_days: 1
+    #- id: "cls-telegraph"
+    #  name: "财联社-电报"
+    #  url: "https://rss-hub-six-rosy.vercel.app/cls/telegraph"
+    #  enabled: true
+    #  max_age_days: 1
    
     - id: "ZQSB-web"
       name: "证券时报网"
